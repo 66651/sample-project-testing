@@ -2,17 +2,17 @@ package main;
 
 public class SampleProject {
 	//print  Hello world! in the console
-	public static String printHello() {
+	public static void Hello() {
 		//print Hello world! in the console!
-		String c = "Hello rvabddld!";
-		return c;
+		System.out.println("Hello world!");
+	
 	}
 	public static int add(int a,int b) {
 		int c = a+b;
-		return c;
+		return c;}
+	
+ public static void main(String args[]) {
+	 Hello();
+	 System.out.println(add(3,46));
+ }
 	}
-	public static void main(String args[]) {
-		System.out.println(printHello());
-		System.out.println(add(23,45));
-	}
-}
